@@ -1,0 +1,22 @@
+Organization (Account)   
+└── Project (Group)          
+    └── Cluster                  
+        └── Database                 
+            └── Collection               
+                └── Document
+
+
+Can have multiple Projects
+Can have multiple Clusters
+Can have multiple Databases
+Can have multiple Collections
+Can have multiple Documents
+
+
+    // await client.connect();
+    // const db = client.db("Blackcoffer"); // Replace with your database name
+    // const collections = db.listCollections().toArray();
+    // for (const collection of await collections) {
+    //   console.log(collection.name);
+    // }
+    // console.log("I am done");
